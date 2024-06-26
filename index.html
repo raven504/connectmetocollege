@@ -63,24 +63,31 @@
             margin-bottom: 20px;
         }
         #brand-list {
-            height: 200px;
+            white-space: nowrap;
             overflow: hidden;
             position: relative;
         }
         #brand-list div {
-            display: flex;
-            flex-direction: column;
-            animation: scroll 10s linear infinite;
+            display: inline-block;
+            padding: 0 10px;
+            animation: scroll 30s linear infinite;
+        }
+        #brand-list img {
+            height: 50px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
         }
         #brand-list p {
             margin: 5px 0;
+            text-align: center;
         }
         @keyframes scroll {
             0% {
-                top: 0;
+                transform: translateX(0%);
             }
             100% {
-                top: -200px;
+                transform: translateX(-100%);
             }
         }
         #testimonials {
@@ -111,18 +118,131 @@
     </section>
     <section id="brands">
         <div class="container">
-            <h2>Our Approved Brands</h2>
+            <h2>Acceptances</h2>
             <div id="brand-list">
                 <div>
-                    <p>Brand Name 1</p>
-                    <p>Brand Name 2</p>
-                    <p>Brand Name 3</p>
-                    <p>Brand Name 4</p>
-                    <p>Brand Name 5</p>
-                    <p>Brand Name 6</p>
+                    <img src="resources\college_logos\Appalachian-State-Mountaineers-Logo-1970.png" alt="Appalachian State University">
+                    <p>Appalachian State University</p>
+                </div>
+                <div>
+                    <img src="resources\college_logos\auburn_university.png" alt="Auburn University">
+                    <p>Auburn University</p>
+                </div>
+                <div>
+                    <img src="resources\college_logos\2018_Baylor_Athletics_Logo.png" alt="Baylor University">
+                    <p>Baylor University</p>
+                </div>
+                <div>
+                    <img src="resources\college_logos\berry_college.jpg" alt="Berry College">
+                    <p>Berry College</p>
+                </div>
+                <div>
+                    <img src="resources\college_logos\boston-college-eagles-1-logo.png" alt="Boston College">
+                    <p>Boston College</p>
+                </div>
+                <div>
+                    <img src="resources\college_logos\boston_university_terriers_logo_secondary_2015_sportslogosnet-5796.png" alt="Boston University">
+                    <p>Boston University</p>
+                </div>
+<!-- Clemson University
+College of Charleston
+College of the Holy Cross
+Colorado State University
+Eastern Florida State College
+Elon University
+Emory University
+Florida Atlantic University
+Florida Gulf Coast University
+Florida Institute of Technology
+Florida Southern College
+Florida State University
+Furman University
+Georgia Institute of Technology
+Georgia Southern University
+Hampden-Sydney College
+Howard University
+Jacksonville University
+Louisiana State University
+Ole Miss: The University of Mississippi
+Pratt Institute
+Rollins College
+SCAD:The Savannah College of Art and Design
+Stetson University
+Texas A&M University
+University of Alabama
+University of Alabama at Birmingham
+University of Central Florida
+University of Colorado Boulder
+University of Florida
+University of Georgia
+University of Kentucky
+University of Miami
+University of North Florida
+University of Richmond
+University of South Carolina
+University of South Florida
+University of Tampa
+University of Tennessee
+University of Texas at Austin
+University of Virginia
+Valdosta State University
+Virginia Polytechnic Institute
+Wake Forest University -->
+                <div>
+                    <img src="path/to/logo7.jpg" alt="Brand Name 7">
                     <p>Brand Name 7</p>
+                </div>
+                <div>
+                    <img src="path/to/logo8.jpg" alt="Brand Name 8">
                     <p>Brand Name 8</p>
+                </div>
+                <div>
+                    <img src="path/to/logo9.jpg" alt="Brand Name 9">
                     <p>Brand Name 9</p>
+                </div>
+                <div>
+                    <img src="path/to/logo10.jpg" alt="Brand Name 10">
+                    <p>Brand Name 10</p>
+                </div>
+                <!-- Repeat logos and names to create continuous scroll effect -->
+                <div>
+                    <img src="path/to/logo1.jpg" alt="Brand Name 1">
+                    <p>Brand Name 1</p>
+                </div>
+                <div>
+                    <img src="path/to/logo2.jpg" alt="Brand Name 2">
+                    <p>Brand Name 2</p>
+                </div>
+                <div>
+                    <img src="path/to/logo3.jpg" alt="Baylor University">
+                    <p>Baylor University</p>
+                </div>
+                <div>
+                    <img src="path/to/logo4.jpg" alt="Brand Name 4">
+                    <p>Brand Name 4</p>
+                </div>
+                <div>
+                    <img src="path/to/logo5.jpg" alt="Brand Name 5">
+                    <p>Brand Name 5</p>
+                </div>
+                <div>
+                    <img src="path/to/logo6.jpg" alt="Brand Name 6">
+                    <p>Brand Name 6</p>
+                </div>
+                <div>
+                    <img src="path/to/logo7.jpg" alt="Brand Name 7">
+                    <p>Brand Name 7</p>
+                </div>
+                <div>
+                    <img src="path/to/logo8.jpg" alt="Brand Name 8">
+                    <p>Brand Name 8</p>
+                </div>
+                <div>
+                    <img src="path/to/logo9.jpg" alt="Brand Name 9">
+                    <p>Brand Name 9</p>
+                </div>
+                <div>
+                    <img src="path/to/logo10.jpg" alt="Brand Name 10">
                     <p>Brand Name 10</p>
                 </div>
             </div>
