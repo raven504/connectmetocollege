@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header .current a {
+            color: #77aaff;
+        }
+        #hero {
+            background: #333;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        #hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        #brands {
+            padding: 20px 0;
+            text-align: center;
+            background: #fff;
+        }
+        #brands h2 {
+            margin-bottom: 20px;
+        }
+        #brand-list {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        #brand-list div {
+            display: flex;
+            flex-direction: column;
+            animation: scroll 10s linear infinite;
+        }
+        #brand-list p {
+            margin: 5px 0;
+        }
+        @keyframes scroll {
+            0% {
+                top: 0;
+            }
+            100% {
+                top: -200px;
+            }
+        }
+        #testimonials {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Business Name</h1>
+            <ul>
+                <li class="current"><a href="#hero">Home</a></li>
+                <li><a href="#brands">Brands</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <img src="path/to/headshot.jpg" alt="Owner Headshot">
+            <h1>Welcome to Your Business</h1>
+            <p>Short description of the owner's work.</p>
+        </div>
+    </section>
+    <section id="brands">
+        <div class="container">
+            <h2>Our Approved Brands</h2>
+            <div id="brand-list">
+                <div>
+                    <p>Brand Name 1</p>
+                    <p>Brand Name 2</p>
+                    <p>Brand Name 3</p>
+                    <p>Brand Name 4</p>
+                    <p>Brand Name 5</p>
+                    <p>Brand Name 6</p>
+                    <p>Brand Name 7</p>
+                    <p>Brand Name 8</p>
+                    <p>Brand Name 9</p>
+                    <p>Brand Name 10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <p>"Great service!" - Customer A</p>
+            <p>"Highly recommend!" - Customer B</p>
+            <p>"Will definitely come back!" - Customer C</p>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+</body>
+</html>
