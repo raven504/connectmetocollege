@@ -1,0 +1,172 @@
+/* Basic styles for the layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container to limit width */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .current a {
+    color: #77aaff;
+}
+
+/* Hero section styles */
+#hero {
+    background: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Acceptances section styles */
+#acceptance-list-container {
+    overflow: hidden; /* Hide both horizontal and vertical scrollbars */
+    white-space: nowrap;
+    position: relative;
+    user-select: none; /* Prevent text selection */
+}
+
+#acceptance-list {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 60s linear infinite; /* Adjust the duration as needed */
+}
+
+#acceptance-list div {
+    display: inline-block;
+    padding: 0 10px;
+    user-select: none; /* Prevent div selection */
+}
+
+#acceptance-list img {
+    height: 100px; /* Adjust logo height as needed */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    user-select: none; /* Prevent image selection */
+    -webkit-user-drag: none; /* Prevent dragging on webkit browsers */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#acceptance-list-text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Make columns responsive */
+    gap: 10px; /* Adjust the gap between columns as needed */
+    margin-top: 20px;
+}
+
+#acceptance-list-text p {
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4; /* Adjust the background color as needed */
+    border: 1px solid #ddd; /* Adjust the border as needed */
+    border-radius: 4px; /* Adjust the border radius as needed */
+    user-select: none; /* Prevent text selection */
+    word-wrap: break-word; /* Ensure words do not overflow */
+    box-sizing: border-box; /* Include padding and border in the box's size */
+    font-size: 14px; /* Adjust font size as needed for fitting */
+}
+  
+
+
+/* Testimonials section styles */
+#testimonials {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Contact section styles */
+#contact {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #77aaff;
+}
+
+#form-response {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}

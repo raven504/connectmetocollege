@@ -1,0 +1,202 @@
+<div id="acceptance-list">
+    <div>
+        <img src="resources\college_logos\Appalachian-State-Mountaineers-Logo-1970.png" alt="Appalachian State University">
+        <p>Appalachian State University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\auburn_university.png" alt="Auburn University">
+        <p>Auburn University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\2018_Baylor_Athletics_Logo.png" alt="Baylor University">
+        <p>Baylor University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\berry_college.jpg" alt="Berry College">
+        <p>Berry College</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\boston-college-eagles-1-logo.png" alt="Boston College">
+        <p>Boston College</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\boston_university_terriers_logo_secondary_2015_sportslogosnet-5796.png" alt="Boston University">
+        <p>Boston University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\clemson.png" alt="Clemson University">
+        <p>Clemson University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\college_of_charleston.png" alt="College of Charleston">
+        <p>College of Charleston</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\holy_cross.png" alt="College of the Holy Cross">
+        <p>College of the Holy Cross</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\colorado_state.png" alt="Colorado State University">
+        <p>Colorado State University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\eastern_florida_state.jpg" alt="Eastern Florida State College">
+        <p>Eastern Florida State College</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\elon.png" alt="Elon University">
+        <p>Elon University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\emory.jpg" alt="Emory University">
+        <p>Emory University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\florida_atlantic.jpg" alt="Florida Altantic University">
+        <p>Florida Altantic University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\fgcu.jpg" alt="Florida Gulf Coast University">
+        <p>Florida Gulf Coast University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\florida_tech.png" alt="Florida Institute of Technology">
+        <p>Florida Institute of Technology</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Florida_Southern_College_Seal_2022.jpg" alt="Florida Southern College">
+        <p>Florida Southern College</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Florida-State-University-logo.png" alt="Florida State University">
+        <p>Florida State University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\furman.png" alt="Furman University">
+        <p>Furman University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Georgia-Tech-Seal.png" alt="Georgia Institute of Technology">
+        <p>Georgia Institute of Technology</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Hampden-sydney_logo_from_NCAA.svg.png" alt="Hampden-Sydney College">
+        <p>Hampden-Sydney College</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Howard-Bison-logo.png" alt="Howard University">
+        <p>Howard University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\jacksonville.png" alt="Jacksonville University">
+        <p>Jacksonville University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\lsu-tigers-logo.jpg" alt="Louisiana State University">
+        <p>Louisiana State University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Mississippi-Rebels-Logo-2020.png" alt="the University of Mississippi">
+        <p>the University of Mississippi</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\PrattSeal.jpg" alt="Pratt Institute">
+        <p>Pratt Institute</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Rollins_logo_from_NCAApng.png" alt="Rollins College">
+        <p>Rollins College</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Rollins_logo_from_NCAApng.png" alt="Rollins College">
+        <p>temp</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\scad.jpg" alt="The Savannah College of Art and Design">
+        <p>The Savannah College of Art and Design</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Stetson_Univ_Seal.png" alt="Stetson University">
+        <p>Stetson University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Texas_A&M_University_seal.png" alt="Texas A&M University">
+        <p>Texas A&M University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Alabama_Crimson_Tide_logo.png" alt="University of Alabama">
+        <p>University of Alabama</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\uab.jpg" alt="University of Alabama at Birmingham">
+        <p>University of Alabama at Birmingham</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Seal_of_the_University_of_Central_Florida.png" alt="University of Central Florida">
+        <p>University of Central Florida</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Colorado_Buffaloes_wordmark.png" alt="University of Colorado Boulder">
+        <p>University of Colorado Boulder</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\UF.jpg" alt="University of Florida">
+        <p>University of Florida</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Georgia_Athletics_logo.png" alt="University of Georgia">
+        <p>University of Georgia</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Kentucky_Wildcats_logo.png" alt="University of Kentucky">
+        <p>University of Kentucky</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\1200px-Miami_Hurricanes_logo.png" alt="University of Miami">
+        <p>University of Miami</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\unf.png" alt="University of North Florida">
+        <p>University of North Florida</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\ur.jpg" alt="University of Richmond">
+        <p>University of Richmond</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\u_southern_carolina.png" alt="University of South Carolina">
+        <p>University of South Carolina</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Official_USF_Bulls_Athletic_Logo.png" alt="University of South Florida">
+        <p>University of South Florida</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\UTampa_logo.png" alt="University of Tampa">
+        <p>University of Tampa</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Tennessee-Volunteers-logo.png" alt="University of Tennessee">
+        <p>University of Tennessee</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\UT&T_text_logo.png" alt="University of Texas at Austin">
+        <p>University of Texas at Austin</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Virginia_Cavaliers_logo.png" alt="University of Virginia">
+        <p>University of Virginia</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\1200px-Valdosta_State_Blazers.png" alt="Valdosta State University">
+        <p>Valdosta State University</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Virginia_Tech_seal.png" alt="Virginia Polytechnic Institute">
+        <p>Virginia Polytechnic Institute</p>
+    </div>
+    <div>
+        <img src="resources\college_logos\Wake_Forest_University_seal.png" alt="Wake Forest University">
+        <p>Wake Forest University</p>
+    </div>
+</div>
