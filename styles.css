@@ -61,6 +61,14 @@ header .current a {
 }
 
 /* Acceptances section styles */
+#acceptances {
+    background-color: #fff; /* Set the background to white */
+}
+
+#acceptances h2 {
+    text-align: center; /* Center the h2 header */
+}
+
 #acceptance-list-container {
     overflow: hidden; /* Hide both horizontal and vertical scrollbars */
     white-space: nowrap;
@@ -100,21 +108,23 @@ header .current a {
 
 #acceptance-list-text {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Make columns responsive */
-    gap: 10px; /* Adjust the gap between columns as needed */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted min-width */
+    gap: 10px;
     margin-top: 20px;
+    width: 100%; /* Ensure the container takes full available width */
 }
 
 #acceptance-list-text p {
     margin: 0;
     padding: 10px;
-    background-color: #f4f4f4; /* Adjust the background color as needed */
-    border: 1px solid #ddd; /* Adjust the border as needed */
-    border-radius: 4px; /* Adjust the border radius as needed */
-    user-select: none; /* Prevent text selection */
-    word-wrap: break-word; /* Ensure words do not overflow */
-    box-sizing: border-box; /* Include padding and border in the box's size */
-    font-size: 14px; /* Adjust font size as needed for fitting */
+    background-color: #ffffff;
+    user-select: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: max-content; /* Ensure box width fits the content */
 }
   
 
