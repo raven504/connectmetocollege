@@ -5,26 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connect Me to College</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="resources/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> <!-- Added Roboto font -->
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Connect Me to College</h1>
-            <ul>
-                <li class="current"><a href="#hero">Home</a></li>
-                <li><a href="#brands">Brands</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </header>
     <section id="hero">
         <div class="container">
-            <img src="path/to/headshot.jpg" alt="Mary Jay Headshot">
-            <h1>Welcome to Connect Me to College</h1>
-            <p>Mary Jay helps students connect to the best colleges for them.</p>
+            <img src="resources/mary_headshot.jpeg" alt="Mary Jay Headshot">
+            <div class="hero-text">
+                <h1>Welcome to <span class="highlight">Connect Me to College</span></h1>
+                <p>Mary Jay guides students to discover and gain admission to their dream colleges.</p>
+            </div>
         </div>
-    </section>
+    </section>      
     <section id="acceptances">
         <div class="container">
             <h2>Acceptances</h2>
@@ -61,7 +54,7 @@
                         <img src="resources\college_logos\colorado_state.png" alt="Colorado State University">
                     </div>
                     <div>
-                        <img src="resources\college_logos\eastern_florida_state.jpg" alt="Eastern Florida State College">
+                        <img src="resources\college_logos\eastern_florida_state.png" alt="Eastern Florida State College">
                     </div>
                     <div>
                         <img src="resources\college_logos\elon.png" alt="Elon University">
@@ -70,10 +63,10 @@
                         <img src="resources\college_logos\emory.jpg" alt="Emory University">
                     </div>
                     <div>
-                        <img src="resources\college_logos\florida_atlantic.jpg" alt="Florida Altantic University">
+                        <img src="resources\college_logos\florida_atlantic.png" alt="Florida Altantic University">
                     </div>
                     <div>
-                        <img src="resources\college_logos\fgcu.jpg" alt="Florida Gulf Coast University">
+                        <img src="resources\college_logos\fgcu.png" alt="Florida Gulf Coast University">
                     </div>
                     <div>
                         <img src="resources\college_logos\florida_tech.png" alt="Florida Institute of Technology">
@@ -235,11 +228,22 @@
     <section id="testimonials">
         <div class="container">
             <h2>Testimonials</h2>
-            <p>"Great service!" - Customer A</p>
-            <p>"Highly recommend!" - Customer B</p>
-            <p>"Will definitely come back!" - Customer C</p>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p>"The personalized guidance I received was phenomenal. It made the entire application process so much smoother!"</p>
+                    <p class="author">- Chris</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Highly recommend! The insights and support I got were crucial in helping me get into my dream college."</p>
+                    <p class="author">- Nora</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Mary is the best! I wouldn't have gotten into my dream school, or even discovered it in the first place, without her guidance."</p>
+                    <p class="author">- Andy</p>
+                </div>
+            </div>
         </div>
-    </section>
+    </section>    
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
